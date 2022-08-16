@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakespeare speaks</title>
+    <style>
+        #txt-input {
+            height: 10vh;
+            width: 80%;
+            border-radius: 0.5rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            border-radius: 0.5rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
+    <nav class="navigation container">
+        <div class="nav-brand">
+           <h1><strong> Shakespeare translation </strong></h1> 
+        </div>
+    </nav>
+   <section class="input-field"> 
+    <textarea id="txt-input" placeholder="Enter your sentence here"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div class="output" style="font-size:larger">See the output here 👇 </div>
+    <div id="output"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/sweta1308/">github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/AgarwallaSweta/">twitter</a></li>
+            <li class="list-item-inline"><a class="link" href="/">linkedin</a></li>
+        </ul>
+    </footer>
+
+
+    <script src="app.js" type="text/javascript"></script>
+
     
 </body>
 </html>
