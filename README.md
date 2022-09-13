@@ -8,4 +8,4 @@ A VanillaJS app to translate English language to Shakespeare language.
 
 ## Features
 * Used `funtranslations` API.
-* USed `fetch` to call API.
+* Used `fetch` to call API.
